@@ -1,0 +1,4 @@
+node_modules
+src/api/v1/bundles/*
+!src/api/v1/bundles/testBundle.mpb
+!src/api/v1/bundles/testBundle.mpb.manifest
