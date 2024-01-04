@@ -15,7 +15,7 @@
   },
   "type": "module",
   "scripts": {
-    "dev-v1": "NODE_ENV=development nodemon --experimental-specifier-resolution=node ./src/api/v1/index.js",
+    "dev-v1": "PORT=6000 NODE_ENV=development nodemon --experimental-specifier-resolution=node ./src/api/v1/index.js",
     "start-v1": "NODE_ENV=production node --experimental-specifier-resolution=node ./src/api/v1/index.js",
     "dev": "yarn dev-v1"
   }
